@@ -1,26 +1,20 @@
 ---
-title: "vFunction Modernization Workshop"
+title: "Automated Microservice Design with Modernization Hub"
 chapter: true
 weight: 1
 ---
 
 ![vFunction Logo](/images/vFunction.png)
 
-# vFunction AWS Modernization Workshop
+# Automated Microservice Design with Modernization Hub
 
-### Welcome
+### Introduction
 
-vFunction is a cloud-native modernization platform that combines dynamic and static code analysis,
-data science and automation to automatically identify and extract services from existing applications.
-
-In this workshop, you will learn how to modernize a Java Spring application by refactoring it into Java Spring Boot Micro Services and deploying them into AWS Elastic Kubernetes Service (EKS).
+Transforming complex monolithic applications into microservices is the next major step in application modernization. Refactoring and re-architecting business critical applications will restore engineering velocity, lower costs, increase application scalability, and further unlock the value of the cloud. vFunction Modernization Hub automates and facilitates the actual decomposition process for developers and architects tasked with maintaining monoliths already lifted and shifted into the cloud or apps that are in the process of being moved and improved into AWS. 
 
 ### Learning Objectives
 
-- How to modernize Java applications using vFunction
-- In which cases vFunction can reduce efforts by orders of magnitude
-- What manual efforts are involved in the modernization process
-- Understand some of the best practices
+Focused on Java and .NET monoliths, this workshop will cover how to set up dynamic and static analysis that observes and analyzes architectures to identify and design microservices, splitting the monolith into domains with well-defined boundaries, high exclusivity, and APIs. vFunction Modernization Hub observes and identifies the key areas of architectural technical debt, pinpointing how to optimize microservice design, and extracting those microservices ready for cloud native deployment. 
 
 ### Who should attend?
 
@@ -67,7 +61,17 @@ graph TD;
 - Basic UNIX commands
 - Basic AWS concepts
 
+### Requirements:
 
+The workshop will deploy into an AWS account you have 3 choices
+
+1) Use an existing funded AWS account
+2) Create a new funded AWS account
+3) If your attending an AWS hosted Event an AWS account will be provided - There will be no charges and AWS will cover all costs.
+
+{{% notice warning %}}
+If you deploy the workshop using your own AWS account you will be responsible for the costs incurred for using the AWS resources deployed by the workshop. These costs will continue until the resources are terminated/removed.
+{{% /notice %}}
 
 {{% notice warning %}}
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
