@@ -20,13 +20,13 @@ The vFunction platform has two modules:
 
 ### How to do this Workshop?
 
-Start by setting up your environment by completing the **[Setup Environment](/10_setup/_index.aws.html)** section.
+Start by setting up your environment by completing the **[Setup Environment](/10_setup.html)** section.
 
 Then do the **[AO Tutorial](/100_architectural-observability.html)** - a hands-on tutorial for the Architectural Observability module
 
 **If** you are interested extracting services corresponding to the domains specified in the AO Module, do the **[RE Tutorial](/200_refactoring-engine.html)**.
 
-To delete the resources created in the setup, make sure to do the **[Cleanup](/300_cleanup/_index.aws.html)** section when you're done.
+To delete the resources created in the setup, make sure to do the **[Cleanup](/300_cleanup.html)** section when you're done.
 
 To flip pages use the right and left arrows at the sides of the main frame.
 

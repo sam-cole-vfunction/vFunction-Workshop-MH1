@@ -12,7 +12,7 @@ weight: 2
 
 2. Mark InventoryController, OrderController and ProductController for extraction in the ANALYSIS page by going through each one, clicking the menu near the number next to the name (3 dots) and selecting SAVE. A tick-mark on the sphere indicates it is marked for extraction. Note that the common library is marked for extraction too.
 
-    | ![Marking a service for extraction](/images/Marking for extraction.png) |
+    | ![Marking a service for extraction](/images/Marking-for-extraction.png) |
     | :--: |
     | Marking a service for extraction |
 

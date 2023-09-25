@@ -97,6 +97,6 @@ Example: For a Proxy URL https://gv4qtsettk.execute-api.us-west-2.amazonaws.com/
 
 ### Cleanup
 
-Before proceeding to the [Cleanup](/60_cleanup/_index.aws.html) section, make sure to delete the Refactoring Spaces environment. You will need first to delete the routes and services, then the application and finally the environment.
+Before proceeding to the [Cleanup](/300_cleanup.html) section, make sure to delete the Refactoring Spaces environment. You will need first to delete the routes and services, then the application and finally the environment.
 
 ![vFunction Logo](/images/vFunction.png)

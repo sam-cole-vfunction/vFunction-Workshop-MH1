@@ -46,13 +46,13 @@ graph TD;
     SchedLearning -.-> NewMeasurement
     NewMeasurement --> Review(["Review and handle todos"])
     
-    click Setup "./10_setup/_index.aws.html"
+    click Setup "./10_setup.html"
     click Learning "./20_learning.html"
     click Analysis "./100_architectural-observability/30_analysis.html"
     click Obs "./100_architectural-observability/40_observation.html"
     click ServiceCreation "./40_servicecreation.html"
     click Deployment "./50_deployment/_index.aws.html"
-    click Cleanup "./60_cleanup/_index.aws.html"
+    click Cleanup "./300_cleanup.html"
 
 
     click OMSApp "https://bitbucket.org/vfunction/oms-tutorial/src/mysql/oms-webmvc/" _blank
