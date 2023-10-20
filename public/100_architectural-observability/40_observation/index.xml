@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Observation on English</title>
+    <link>/100_architectural-observability/40_observation.html</link>
+    <description>Recent content in Observation on English</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/100_architectural-observability/40_observation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Config Observation</title>
+      <link>/100_architectural-observability/40_observation/1_config_obs.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/100_architectural-observability/40_observation/1_config_obs.html</guid>
+      <description>Setting up automatic observation of architectural changes Click on the OBSERVATION page. The first page (figure below) is used to configure which events should be triggered due to differences between the new measurement (auto learning) and the baseline. You can set the exclusivity threshold for the domain exclusivity event and you can enable to get mail and slack notifications when an automatic learning ends.
+Leave the Configure Alerts unchanged and click Configure Plan.</description>
+    </item>
+    
+    <item>
+      <title>Update OMS</title>
+      <link>/100_architectural-observability/40_observation/2_update_app.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/100_architectural-observability/40_observation/2_update_app.html</guid>
+      <description>Change the OMS Application In this section we will clone the OMS public git repo, switch to the updated branch and then configure and deploy the new version.
+The modified version of OMS adds managing customers.
+All the commands are done on the Linux machine, i.e., open PuTTY as you&amp;rsquo;ve done in the Setup Environment section and login to the Linux VM.
+Install git sudo yum install git Install maven sudo yum install maven Clone code repo and checkout ao-demo-1 branch cd ~ git clone https://workshop@bitbucket.</description>
+    </item>
+    
+    <item>
+      <title>Scheduled Learning</title>
+      <link>/100_architectural-observability/40_observation/3_sched_learning.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/100_architectural-observability/40_observation/3_sched_learning.html</guid>
+      <description>Simulating scheduled learning with the modified OMS app Go to the vFunction Web UI and open the Observation page
+Add a new schedule for learning
+Set the controller to oms-controller
+Set the Repeat and the Analysis schedule to daily
+Set the time slot to 5 min. before the current server time and 10 min. length (e.g., if the current server time is 2:00 PM, set it to 1:55 PM - 2:05 PM)</description>
+    </item>
+    
+    <item>
+      <title>Review Results</title>
+      <link>/100_architectural-observability/40_observation/4_review_results.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/100_architectural-observability/40_observation/4_review_results.html</guid>
+      <description>Review scheduled learning and anlysis results Go to the vFunction Web UI and switch to the analysis page
+From the MEASUREMENT menu (bottom of page) SELECT the Scheduled measurement
+Click on the Bell icon at the top of the page to see the notifications - it should look like the following:
+Let&amp;rsquo;s review the notifications:
+Notification that the scheduled learning was done and the data was sent to analysis A new class was introduced to the common library: com.</description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>/100_architectural-observability/40_observation/5_summary.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/100_architectural-observability/40_observation/5_summary.html</guid>
+      <description>Summary We saw how to setup automatic learning and analysis to continuously observe and detect architectural drifts as the application is changing, and how to update the baseline following the architectural events.
+This concludes the AO Tutorial. If you are interested to learn about extracting services, continue to the RE Tutorial, if not, just skip to the Cleanup section.</description>
+    </item>
+    
+  </channel>
+</rss>
